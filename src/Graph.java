@@ -5,8 +5,8 @@ public class Graph {
 
     private int[][] capacity; // Ma trận dung lượng
     private int numVertices;  // Số lượng đỉnh
-    private int sink;
-    private int source;
+    private int sink;   // Đỉnh đích
+    private int source; // Đỉnh nguồn
 
     Scanner scanner = new Scanner(System.in);
 

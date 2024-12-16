@@ -4,9 +4,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class EdmondsKarp {
-    private int[][] capacity;
-    private int[][] flow;
-    private int numVertices;
+    private int[][] capacity; // Ma trận dung lượng
+    private int[][] flow; // Cập nhật luồng
+    private int numVertices; // Số lượng đỉnh
 
     public EdmondsKarp(Graph graph) {
         this.numVertices = graph.getNumVertices();
